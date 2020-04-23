@@ -23,6 +23,6 @@ export class FormComponent implements OnInit {
     // add contact to contacts list
     // clear inputs
     newItem.count = 0;
-    this.items.push(newItem);
+    this.items.unshift(newItem);
   }
 }
