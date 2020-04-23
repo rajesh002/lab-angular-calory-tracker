@@ -10,6 +10,7 @@ import { HeaderComponent } from './header/header.component';
 import { FormComponent } from './form/form.component';
 import { TodaylistComponent } from './todaylist/todaylist.component';
 import { HomeComponent } from './home/home.component';
+import { SearchPipe } from './search.pipe';
 
 @NgModule({
   declarations: [
@@ -19,6 +20,7 @@ import { HomeComponent } from './home/home.component';
     FormComponent,
     TodaylistComponent,
     HomeComponent,
+    SearchPipe,
   ],
   imports: [BrowserModule, AppRoutingModule, FormsModule, HttpClientModule],
   providers: [],

@@ -1,0 +1,36 @@
+.items {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  text-align: center;
+  margin: 30px;
+  width: 550px;
+
+}
+
+ul {
+  text-decoration: none;
+  list-style: none;
+}
+
+img {
+  width: 80px;
+  height: 80px;
+  margin-left: 250px;
+
+}
+
+.it {
+  display: flex;
+  flex-direction: column;
+  background: grey;
+  margin-top: 20px;
+  border: 1px solid;
+}
+
+button,
+input {
+  width: 150px;
+  text-align: center;
+  margin-left: 220px;
+}

@@ -1,10 +1,11 @@
 <ul class="items">
   <li *ngFor="let item of items">
-    <h3>{{item.name}}</h3>
-    <p>Calory- {{item.calories}}</p>
-    <p>{{item.count}}</p>
-    <img src="{{item.image}}" alt="Imagen de {{item.name}}">
-    <input #count type="number">
-    <button (click)="addcount(count.value,item)">Add</button>
+    <div class="it">
+      <h3>{{item.name}}</h3>
+      <p>Calory- {{item.calories}}</p>
+      <img src="{{item.image}}" alt="Imagen de {{item.name}}"><br>
+      <input #count type="number"><br>
+      <button (click)="addcount(count.value,item)">Add</button><br>
+    </div>
   </li>
 </ul>
